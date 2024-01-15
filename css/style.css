@@ -125,7 +125,7 @@ header {
 }
 
 .banner-section {
-    background-image: url('../Images/bg.png');
+    background-image: url('../images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -296,7 +296,7 @@ header {
 }
 
 .deals-discounts-box {
-    background-image: url('../Images/group\ 39.png');
+    background-image: url('../images/group\ 39.png');
     background-position: center;
     background-size: cover;
     /* border: 2px solid; */
@@ -307,7 +307,7 @@ header {
 }
 
 .deals-discounts-box-midd {
-    background-image: url('../Images/group\ 40.png');
+    background-image: url('../images/group\ 40.png');
     background-position: center;
     background-size: cover;
     /* border: 2px solid; */
