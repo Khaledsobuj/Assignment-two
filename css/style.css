@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* This is common styles end */
+/* ===================================================================== */
+header {
+    background-color: #fff;
+}
+
+.nav-bir {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f00;
+}
+
+.logo-bir {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    border: 1px solid rgb(38, 0, 255);
+    gap: 10px;
+}
+
+.logo-bir img {
+    width: 20%;
+    object-fit: fill;
+}
+
+.logo-bir>h2 {
+    width: 100%;
+    color: #131318;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.logo-title-color {
+    color: #FF5400;
+}
+
+.menu-bir {
+    width: 50%;
+    align-items: end;
+    border: 1px solid rgb(0, 5, 0);
+
+}
