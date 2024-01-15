@@ -282,6 +282,19 @@ header {
 
 
 /* ============================================ */
+.deal-content {
+    margin-bottom: 30px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.deal-content .deals-title,
+.deals-desc {
+    padding: 30px 60px;
+
+}
+
 .deals-discounts-box {
     background-image: url('../Images/group\ 39.png');
     background-position: center;
@@ -355,6 +368,74 @@ header {
     font-weight: 800;
     padding: 25px 0;
 
+}
+
+.mid-btn {
+    display: block;
+    /* width: 100%; */
+    margin: 10px auto;
+}
+
+/* ==================================================== */
+.simple-perfect {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.simple-perfect-content {
+    width: 50%;
+}
+
+.simple-disc {
+    padding: 25px 0;
+}
+
+.simple-perfect-video {
+    width: 50%;
+}
+
+iframe {
+    border-radius: 16px;
+
+}
+
+/* ============================================ */
+
+.newsletter {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.newsletter-content {
+    width: 50%;
+}
+
+.newsletter-content>p {
+    width: 70%;
+}
+
+.newsletter-content>form>input {
+    display: block;
+    padding: 16px;
+    margin-top: 28px;
+    width: 90%;
+}
+
+.newsletter-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.newsletter-img {
+    width: 50%;
+}
+
+.newsletter-img img {
+    width: 100%;
 }
 
 /* ============================================= */

@@ -2,7 +2,9 @@
 
     .nav-bir,
     .populer-tours,
-    .card-box {
+    .card-box,
+    .simple-perfect,
+    .newsletter {
         flex-direction: column;
     }
 
@@ -20,8 +22,13 @@
         width: 90%;
         height: 70%;
 
+    }
 
-
+    .simple-perfect-content,
+    .newsletter-content,
+    .newsletter-img,
+    .newsletter-content>form>input {
+        width: 100%;
     }
 
 }
