@@ -14,13 +14,44 @@ body {
 
 }
 
+section {
+    margin: 100px 0px;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
+.heaid {
+    display: none;
+}
+
 .comont-color {
     color: #FF5400;
+}
+
+.common-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.common-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 400;
+    line-height: 1.5rem
+}
+
+.commont-btn {
+    padding: 15px 35px;
+    background-color: #FF5400;
+    color: #fff;
+    font-size: 1.25rem;
+    margin: 20px 0px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 05px;
 }
 
 /* This is common styles end */
@@ -90,3 +121,78 @@ header {
 .menu-bir>ul li a:hover {
     color: #FF5400;
 }
+
+.banner-section {
+    background-image: url('../Images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    border-radius: 1rem;
+}
+
+.banner-section .banner-title {
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 800;
+    padding-top: 00px 280px 25px 280px;
+
+}
+
+.banner-section .banner-discription {
+    text-align: center;
+    color: #fff;
+    padding: 0px 240px 50px 240px;
+
+}
+
+.form-section {
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+
+}
+
+.form-section form {}
+
+.form-section form input {
+    width: 33%;
+}
+
+
+/* popular tours section styles start */
+
+.populer-tours {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.tours-content {
+    width: 50%;
+}
+
+.tours-title {}
+
+.tours-desc {
+    padding: 25px 0;
+}
+
+.tours-content>ul>li {
+    margin-bottom: 20px;
+}
+
+
+
+
+.tours-img {
+    width: 50%;
+}
+
+.tours-img img {
+    width: 100%;
+}
+
+/* ============================================= */

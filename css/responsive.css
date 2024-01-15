@@ -1,0 +1,17 @@
+@media screen and (max-width:675px) {
+
+    .nav-bir,
+    .populer-tours {
+        flex-direction: column;
+    }
+
+    .logo-bir {
+        width: 90%;
+    }
+
+    .tours-content,
+    .tours-img {
+        width: 100%;
+    }
+
+}
