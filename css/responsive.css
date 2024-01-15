@@ -1,7 +1,8 @@
 @media screen and (max-width:675px) {
 
     .nav-bir,
-    .populer-tours {
+    .populer-tours,
+    .card-box {
         flex-direction: column;
     }
 
@@ -10,8 +11,17 @@
     }
 
     .tours-content,
-    .tours-img {
+    .tours-img,
+    .card-box-2 {
         width: 100%;
+    }
+
+    .deals-card {
+        width: 90%;
+        height: 70%;
+
+
+
     }
 
 }
