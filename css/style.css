@@ -233,6 +233,11 @@ header {
 
 }
 
+.card>span>i {
+    font-size: 4rem;
+    color: #FF5400;
+}
+
 .card-1 {
 
     border-radius: 16px;
