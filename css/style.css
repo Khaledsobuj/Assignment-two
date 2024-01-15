@@ -19,6 +19,10 @@ body {
     margin: 0 auto;
 }
 
+.comont-color {
+    color: #FF5400;
+}
+
 /* This is common styles end */
 /* ===================================================================== */
 header {
@@ -29,6 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     border: 1px solid #f00;
+    align-items: center;
 }
 
 .logo-bir {
@@ -53,13 +58,35 @@ header {
     font-weight: 800;
 }
 
-.logo-title-color {
-    color: #FF5400;
-}
 
 .menu-bir {
     width: 50%;
     align-items: end;
     border: 1px solid rgb(0, 5, 0);
 
+}
+
+.menu-bir>ul {
+    display: flex;
+
+}
+
+.menu-bir>ul li {
+    list-style: none;
+    margin-right: 45px;
+
+}
+
+.menu-bir>ul li a {
+    text-decoration: none;
+    font-size: 1.12rem;
+    font-weight: 700;
+}
+
+.menu-bir>ul li a.activ {
+    color: #FF5400;
+}
+
+.menu-bir>ul li a:hover {
+    color: #FF5400;
 }
