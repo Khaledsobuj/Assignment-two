@@ -63,8 +63,14 @@
     .simple-perfect-content,
     .deal-content,
     .newsletter-content,
+
     .newsletter-img {
         width: 100%;
+    }
+
+    .simple-perfect-video iframe {
+        width: 335px;
+        height: 200px;
     }
 
     .save-card {
