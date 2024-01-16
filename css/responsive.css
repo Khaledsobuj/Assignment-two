@@ -44,6 +44,20 @@
     }
 
     /* =========================================== */
+    .row {
+        flex-direction: column;
+    }
+
+    /* .tex-position {
+        position: relative;
+    }
+
+    .maldiv {
+        position: absolute;
+    } */
+    .tex-position img {
+        width: 100%;
+    }
 
 
 

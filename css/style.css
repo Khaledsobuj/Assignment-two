@@ -122,7 +122,7 @@ header {
 
 /* ================================================================= */
 .banner-section {
-    background-image: url('../images/bg.png');
+    background-image: url('../Images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -195,13 +195,15 @@ header {
     margin-bottom: 20px;
 }
 
-
-
-
 .tours-img {
     width: 50%;
 }
 
+
+
+/* ========================================================== */
+
+/* Start choose-your-destination styles */
 .tours-img img {
     width: 100%;
 }
@@ -218,8 +220,6 @@ header {
     position: relative;
 }
 
-
-
 .maldiv {
     color: #fff;
     font-size: 1.5rem;
@@ -232,26 +232,13 @@ header {
 
 }
 
-
-
-.why-choose {
-    /* border: 2px solid #f00; */
+.choose-content {
+    width: 70%;
+    margin: 10px auto;
     text-align: center;
 }
 
-.content {
-    width: 80%;
-    margin: 20px auto 50px auto;
-    padding: 30px;
-
-}
-
-.content>h4 {
-    margin-bottom: 25px;
-}
-
 .card-box {
-    /* border: 2px solid rgb(42, 196, 3); */
     display: flex;
     text-align: left;
     gap: 24px;
