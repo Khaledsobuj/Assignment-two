@@ -451,10 +451,33 @@ iframe {
 
 .newsletter-img {
     width: 50%;
+    position: relative;
 }
 
 .newsletter-img img {
     width: 100%;
+}
+
+.save-card {
+    width: 320px;
+    height: 120px;
+    background-color: #FF5400;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    position: absolute;
+    border-radius: 1rem;
+    top: 50%;
+    left: 40%;
+    transform: rotate(-20deg);
+}
+
+.save-card>p {
+    font-size: 1.25rem;
+}
+
+.save-card>h3 {
+    font-size: 2rem;
 }
 
 /* ============================================= */

@@ -61,8 +61,24 @@
 
     /* ======================================= */
     .simple-perfect-content,
-    .deal-content {
+    .deal-content,
+    .newsletter-content,
+    .newsletter-img {
         width: 100%;
+    }
+
+    .save-card {
+        width: 320px;
+        height: 120px;
+        background-color: #FF5400;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+        position: absolute;
+        border-radius: 1rem;
+        top: 40%;
+        left: 30%;
+        transform: rotate(-20deg);
     }
 
 
