@@ -149,7 +149,7 @@ header {
 .banner-section form {
     text-align: center;
     background-color: #ffffff5b;
-    padding: 30px;
+    padding: 20px;
     border-radius: 16px;
 }
 
@@ -204,6 +204,11 @@ header {
 /* ========================================================== */
 
 /* Start choose-your-destination styles */
+.choose-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
 .tours-img img {
     width: 100%;
 }
@@ -219,6 +224,7 @@ header {
 .tex-position {
     position: relative;
 }
+
 
 .maldiv {
     color: #fff;
@@ -424,11 +430,16 @@ iframe {
 .newsletter {
     display: flex;
     justify-content: space-evenly;
+    gap: 20px;
+
 
 }
 
 .newsletter-content {
     width: 50%;
+    border: 1px solid #FF5400;
+    padding: 10px 0px 00px 20px;
+    border-radius: 16px;
 }
 
 .newsletter-content>p {
@@ -440,6 +451,8 @@ iframe {
     padding: 16px;
     margin-top: 28px;
     width: 90%;
+    border: 1px solid #dbdbdb98;
+    font-size: 1rem;
 }
 
 .newsletter-title {
@@ -467,8 +480,8 @@ iframe {
     color: #fff;
     position: absolute;
     border-radius: 1rem;
-    top: 50%;
-    left: 40%;
+    top: 48%;
+    left: 38%;
     transform: rotate(-20deg);
 }
 

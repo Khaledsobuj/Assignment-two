@@ -10,6 +10,9 @@
     }
 
     /* =========================================== */
+    .banner-section .banner-title {
+        font-size: 2rem;
+    }
 
     .nav-bir>ul {
         margin-top: 10px;
@@ -24,6 +27,19 @@
     .card-box-2,
     .footer {
         width: 100%;
+    }
+
+    .mid-btn {
+        display: none;
+    }
+
+    .choose-title {
+        width: 100%;
+        /* margin: 0; */
+        padding-bottom: 20px;
+        font-size: 1.8rem;
+
+
     }
 
     .deals-card {
@@ -49,7 +65,7 @@
     }
 
     /* .tex-position {
-        position: relative;
+        position: relative;newsletter
     }
 
     .maldiv {
@@ -63,9 +79,12 @@
     .simple-perfect-content,
     .deal-content,
     .newsletter-content,
-
     .newsletter-img {
         width: 100%;
+    }
+
+    .newsletter-content {
+        margin-bottom: 40px;
     }
 
     .simple-perfect-video iframe {
