@@ -24,9 +24,9 @@ footer {
     margin: 0 auto;
 }
 
-/* .heaid {
+.heaid {
     display: none;
-} */
+}
 
 .comont-color {
     color: #FF5400;
@@ -48,7 +48,7 @@ footer {
     padding: 15px 35px;
     background-color: #FF5400;
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin: 20px 0px;
     cursor: pointer;
     border: 0;
@@ -62,10 +62,10 @@ header {
 
 }
 
+/* nav styles start */
 .nav-bir {
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid #f00; */
     align-items: center;
     margin-bottom: 50px;
 }
@@ -75,7 +75,6 @@ header {
     justify-content: space-around;
     width: 50%;
     align-items: center;
-    /* border: 1px solid rgb(38, 0, 255); */
     gap: 10px;
 }
 
@@ -96,19 +95,15 @@ header {
 .menu-bir {
     width: 50%;
     align-items: end;
-    /* border: 1px solid rgb(0, 5, 0); */
-
 }
 
 .menu-bir>ul {
     display: flex;
-
 }
 
 .menu-bir>ul li {
     list-style: none;
     margin-right: 45px;
-
 }
 
 .menu-bir>ul li a {
@@ -125,13 +120,14 @@ header {
     color: #FF5400;
 }
 
+/* ================================================================= */
 .banner-section {
     background-image: url('../images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 100px 0;
-    border-radius: 1rem;
+    padding: 30px;
+    color: #fff;
 }
 
 .banner-section .banner-title {
@@ -150,19 +146,31 @@ header {
 
 }
 
-.form-section {
-    width: 80%;
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.30);
-    padding: 16px;
+.banner-section form {
+    text-align: center;
+    background-color: #ffffff5b;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+.banner-section form input {
+    padding: 15px 35px;
+    margin-right: 24px;
+    border-radius: 10px;
+
 
 }
 
-.form-section form {}
-
-.form-section form input {
-    width: 33%;
+.banner-section form select {
+    padding: 15px 35px;
+    margin-right: 24px;
+    width: 174px;
+    border-radius: 10px;
 }
+
+/* ===================================================================== */
+/* end header section  */
+
 
 
 /* popular tours section styles start */
@@ -198,14 +206,32 @@ header {
     width: 100%;
 }
 
-/* .destination-section {
-    text-align: center;
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 20px 0;
+
 }
 
-.box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-} */
+.tex-position {
+    position: relative;
+}
+
+
+
+.maldiv {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+
+}
+
 
 
 .why-choose {

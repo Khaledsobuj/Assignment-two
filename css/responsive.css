@@ -1,11 +1,18 @@
 @media screen and (max-width:675px) {
 
     .nav-bir,
+    ul,
     .populer-tours,
     .card-box,
     .simple-perfect,
     .newsletter {
         flex-direction: column;
+    }
+
+    /* =========================================== */
+
+    .nav-bir>ul {
+        margin-top: 10px;
     }
 
     .logo-bir {
@@ -22,14 +29,22 @@
     .deals-card {
         width: 90%;
         height: 70%;
+    }
+
+    .banner-section .banner-discription {
+        padding: 0;
 
     }
 
-    .simple-perfect-content,
-    .newsletter-content,
-    .newsletter-img,
-    .newsletter-content>form>input {
+    .banner-section form input,
+    .banner-section form select,
+    .banner-section button {
         width: 100%;
+        margin-bottom: 10px;
     }
+
+    /* =========================================== */
+
+
 
 }
