@@ -120,6 +120,9 @@ header {
     color: #FF5400;
 }
 
+
+
+
 /* ================================================================= */
 .banner-section {
     background-image: url('../Images/bg.png');
@@ -333,7 +336,7 @@ header {
 }
 
 .deals-discounts-box-midd {
-    background-image: url('../images/group40.png');
+    background-image: url('../Images/group40.png');
     background-position: center;
     background-size: cover;
     /* border: 2px solid; */
