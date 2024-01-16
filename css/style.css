@@ -199,6 +199,9 @@ header {
     width: 50%;
 }
 
+.tours-img img {
+    width: 100%;
+}
 
 
 /* ========================================================== */
@@ -209,9 +212,7 @@ header {
     margin: 0 auto;
 }
 
-.tours-img img {
-    width: 100%;
-}
+
 
 .row {
     display: flex;
@@ -480,8 +481,8 @@ iframe {
     color: #fff;
     position: absolute;
     border-radius: 1rem;
-    top: 48%;
-    left: 38%;
+    top: 40%;
+    left: 30%;
     transform: rotate(-20deg);
 }
 
