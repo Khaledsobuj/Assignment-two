@@ -59,6 +59,11 @@
         width: 100%;
     }
 
+    /* ======================================= */
+    .simple-perfect-content,
+    .deal-content {
+        width: 100%;
+    }
 
 
 }
